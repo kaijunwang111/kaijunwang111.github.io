@@ -14,7 +14,7 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(3 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -138,6 +138,8 @@
 
 .author__bio {
   margin: 0;
+  color: $gray;
+  font-style: italic;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -234,7 +236,8 @@
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 
   a {

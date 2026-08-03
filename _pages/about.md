@@ -3,56 +3,59 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<span class="anchor" id="about-me"></span>
 
-<span class='anchor' id='about-me'></span>
+# About Me
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+<p class="placeholder-copy">A brief biography and research interests will be added here.</p>
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+<span class="anchor" id="education"></span>
 
+# Education
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<div class="education-list">
+  <div class="education-item">
+    <div class="education-header">
+      <strong><a href="https://www.sustech.edu.cn/en/" target="_blank" rel="noopener noreferrer">Southern University of Science and Technology (SUSTech)</a></strong>
+      <span class="education-date">Sep. 2022 – Jun. 2025</span>
+    </div>
+    <div>Master's degree, <a href="https://www.sustech.edu.cn/en/colleges/school-of-system-design-and-intelligent-manufacturing.html" target="_blank" rel="noopener noreferrer">School of System Design and Intelligent Manufacturing</a> (SDIM)</div>
+  </div>
 
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
+  <div class="education-item">
+    <div class="education-header">
+      <strong><a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang University</a></strong>
+      <span class="education-date">Sep. 2018 – Jun. 2022</span>
+    </div>
+    <div>B.Eng., <a href="https://www.cse.zju.edu.cn/cseenglish/main.htm" target="_blank" rel="noopener noreferrer">College of Control Science and Engineering</a> (CSE)</div>
+  </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<span class="anchor" id="publications"></span>
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# Publications
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<ol class="publication-list">
+  <li>
+    <a class="publication-title" href="https://arxiv.org/abs/2606.26800" target="_blank" rel="noopener noreferrer">SSI-Policy: Learning Structured Scene Interfaces for Vision-Language Robotic Manipulation</a>
+    <p class="publication-authors"><strong>K. Wang</strong><sup>†</sup>, Z. Ouyang<sup>†</sup>, X. Wu, J. Hong, W. Pan, H. Lu, J. Pan, W. Zhang<sup>‡</sup>, and L. Zheng<sup>‡</sup></p>
+    <p class="publication-venue">Accepted to the <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2026. <a class="publication-link" href="https://arxiv.org/abs/2606.26800" target="_blank" rel="noopener noreferrer">arXiv</a></p>
+  </li>
+  <li>
+    <a class="publication-title" href="https://clearlab-sustech.github.io/scil/" target="_blank" rel="noopener noreferrer">SCIL: Stage-Conditioned Imitation Learning for Multi-Stage Manipulation</a>
+    <p class="publication-authors">Z. Ouyang, <strong>K. Wang</strong>, J. Liu, H. Lu, and W. Zhang</p>
+    <p class="publication-venue"><em>IEEE Control Systems Letters (L-CSS)</em>, vol. 9, pp. 913–918, 2025. <a class="publication-link" href="https://doi.org/10.1109/LCSYS.2025.3577082" target="_blank" rel="noopener noreferrer">DOI</a></p>
+  </li>
+  <li>
+    <a class="publication-title" href="https://doi.org/10.1109/ROBIO64047.2024.10907353" target="_blank" rel="noopener noreferrer">HTD: A Hybrid Triangle Descriptor Combining Geometry and Intensity Information for 3D Loop Detection</a>
+    <p class="publication-authors"><strong>K. Wang</strong> and W. Zhang</p>
+    <p class="publication-venue"><em>IEEE International Conference on Robotics and Biomimetics (ROBIO)</em>, 2024, pp. 1507–1513. <a class="publication-link" href="https://doi.org/10.1109/ROBIO64047.2024.10907353" target="_blank" rel="noopener noreferrer">DOI</a></p>
+  </li>
+</ol>
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<p class="publication-note"><sup>†</sup> Equal contribution. <sup>‡</sup> Corresponding authors.</p>
