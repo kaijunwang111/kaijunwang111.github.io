@@ -7,7 +7,9 @@
 
 # Site Settings
 title                    : "Kaijun Wang"
-description              : "Personal academic homepage of Kaijun Wang, an M.S. student in robotics."
+description              : "Personal academic homepage of Kaijun Wang, a robotics engineer."
+url                      : "https://kaijunwang111.github.io"
+og_image                 : "/images/ryo.jpg"
 repository               : "kaijunwang111/kaijunwang111.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,8 +24,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Kaijun Wang"
-  avatar           :
-  bio              : "M.S. Student in Robotics"
+  avatar           : "/images/ryo.jpg"
+  bio              : "M.S. in Robotics"
   location         : "Shenzhen, China"
   employer         :
   pubmed           : 
@@ -57,6 +59,11 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  interests:
+    - "Robotic Manipulation"
+    - "Vision-Language-Action (VLA)"
+    - "Reinforcement Learning (RL)"
+    - "Real-World Deployment"
 
 
 # Reading Files

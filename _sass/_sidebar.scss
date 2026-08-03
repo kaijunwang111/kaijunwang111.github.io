@@ -271,3 +271,21 @@
     display: none;
   }
 }
+
+.author__interests {
+  display: none;
+  margin: 1.25em 0 0;
+  padding: 0;
+  list-style: none;
+  color: $gray;
+  cursor: default;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+
+  li {
+    margin-bottom: 0.25em;
+    line-height: 1.45;
+  }
+}

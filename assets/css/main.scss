@@ -128,6 +128,9 @@ html {
 
 .education-item,
 .experience-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
     padding: 1em 0;
     border-bottom: 1px solid $border-color;
 }
@@ -135,6 +138,45 @@ html {
 .education-item:first-child,
 .experience-item:first-child {
     padding-top: 0.25em;
+}
+
+.institution-logo {
+    display: flex;
+    flex: 0 0 62px;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    padding: 7px;
+    overflow: hidden;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    background: #f5f7f9;
+}
+
+.institution-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.institution-logo--zju {
+    padding: 0;
+    background: #24497a;
+}
+
+.institution-logo--zju img {
+    object-fit: cover;
+    object-position: left center;
+}
+
+.institution-logo--ubtech {
+    background: #1f2933;
+}
+
+.institution-content {
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 .education-header,
@@ -168,15 +210,21 @@ html {
     line-height: 1.4;
 }
 
+.publication-links,
 .publication-authors,
 .publication-venue {
     margin: 0.35em 0 0 !important;
 }
 
-.publication-link {
-    margin-left: 0.35em;
+.publication-links {
     font-size: 0.92em;
     font-weight: 700;
+}
+
+.publication-separator {
+    margin: 0 0.45em;
+    color: $gray;
+    font-weight: 400;
 }
 
 .publication-note {
@@ -185,6 +233,22 @@ html {
 }
 
 @include breakpoint(max-width $small) {
+    .education-item,
+    .experience-item {
+        gap: 0.75em;
+    }
+
+    .institution-logo {
+        flex-basis: 50px;
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+    }
+
+    .institution-logo--zju {
+        padding: 0;
+    }
+
     .education-header,
     .experience-header {
         display: block;
