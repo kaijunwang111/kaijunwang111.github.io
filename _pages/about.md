@@ -36,6 +36,20 @@ redirect_from:
   </div>
 </div>
 
+<span class="anchor" id="work-experience"></span>
+
+# Work Experience
+
+<div class="experience-list">
+  <div class="experience-item">
+    <div class="experience-header">
+      <strong><a href="https://www.ubtrobot.com/en/" target="_blank" rel="noopener noreferrer">UBTECH ROBOTICS CORP LTD</a></strong>
+      <span class="experience-date">Jul. 2025 – Present</span>
+    </div>
+    <div>Senior Motion Control Algorithm Engineer</div>
+  </div>
+</div>
+
 <span class="anchor" id="publications"></span>
 
 # Publications

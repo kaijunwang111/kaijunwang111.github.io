@@ -121,27 +121,32 @@ html {
     font-style: italic;
 }
 
-.education-list {
+.education-list,
+.experience-list {
     margin: 0.75em 0 2em;
 }
 
-.education-item {
+.education-item,
+.experience-item {
     padding: 1em 0;
     border-bottom: 1px solid $border-color;
 }
 
-.education-item:first-child {
+.education-item:first-child,
+.experience-item:first-child {
     padding-top: 0.25em;
 }
 
-.education-header {
+.education-header,
+.experience-header {
     display: flex;
     justify-content: space-between;
     gap: 1.5em;
     margin-bottom: 0.25em;
 }
 
-.education-date {
+.education-date,
+.experience-date {
     flex: 0 0 auto;
     color: $gray;
     white-space: nowrap;
@@ -180,11 +185,13 @@ html {
 }
 
 @include breakpoint(max-width $small) {
-    .education-header {
+    .education-header,
+    .experience-header {
         display: block;
     }
 
-    .education-date {
+    .education-date,
+    .experience-date {
         display: block;
         margin-top: 0.2em;
     }
