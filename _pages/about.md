@@ -28,7 +28,8 @@ redirect_from:
         <strong><a href="https://www.sustech.edu.cn/en/" target="_blank" rel="noopener noreferrer">Southern University of Science and Technology (SUSTech)</a></strong>
         <span class="education-date">Sep. 2022 – Jun. 2025</span>
       </div>
-      <div>Master's degree, <a href="https://www.sustech.edu.cn/en/colleges/school-of-system-design-and-intelligent-manufacturing.html" target="_blank" rel="noopener noreferrer">School of System Design and Intelligent Manufacturing</a> (SDIM)</div>
+      <div>M.S., School of System Design and Intelligent Manufacturing</div>
+      <div class="education-gpa">GPA: 3.67/4.0</div>
     </div>
   </div>
 
@@ -41,7 +42,8 @@ redirect_from:
         <strong><a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang University</a></strong>
         <span class="education-date">Sep. 2018 – Jun. 2022</span>
       </div>
-      <div>B.Eng., <a href="https://www.cse.zju.edu.cn/cseenglish/main.htm" target="_blank" rel="noopener noreferrer">College of Control Science and Engineering</a> (CSE)</div>
+      <div>B.Eng., College of Control Science and Engineering</div>
+      <div class="education-gpa">GPA: 4.19/5.0</div>
     </div>
   </div>
 </div>
