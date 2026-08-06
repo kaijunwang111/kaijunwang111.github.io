@@ -229,11 +229,6 @@ html {
     font-weight: 400;
 }
 
-.publication-note {
-    color: $gray;
-    font-size: 0.9em !important;
-}
-
 @include breakpoint(max-width $small) {
     .education-item,
     .experience-item {

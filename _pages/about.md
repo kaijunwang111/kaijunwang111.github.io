@@ -75,8 +75,8 @@ redirect_from:
 <ol class="publication-list">
   <li>
     <span class="publication-title">SSI-Policy: Learning Structured Scene Interfaces for Vision-Language Robotic Manipulation</span>
-    <p class="publication-links"><a href="https://arxiv.org/abs/2606.26800" target="_blank" rel="noopener noreferrer">arXiv</a></p>
-    <p class="publication-authors"><strong>K. Wang</strong><sup>†</sup>, Z. Ouyang<sup>†</sup>, X. Wu, J. Hong, W. Pan, H. Lu, J. Pan, W. Zhang<sup>‡</sup>, and L. Zheng<sup>‡</sup></p>
+    <p class="publication-links"><a href="https://arxiv.org/abs/2606.26800" target="_blank" rel="noopener noreferrer">arXiv</a><span class="publication-separator">|</span><a href="{{ '/assets/videos/ssi-policy-iros2026.mp4' | relative_url }}" target="_blank" rel="noopener noreferrer">Video</a></p>
+    <p class="publication-authors"><strong>K. Wang</strong>, Z. Ouyang, X. Wu, J. Hong, W. Pan, H. Lu, J. Pan, W. Zhang, and L. Zheng</p>
     <p class="publication-venue">Accepted to the <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2026.</p>
   </li>
   <li>
@@ -92,5 +92,3 @@ redirect_from:
     <p class="publication-venue"><em>IEEE International Conference on Robotics and Biomimetics (ROBIO)</em>, 2024, pp. 1507–1513.</p>
   </li>
 </ol>
-
-<p class="publication-note"><sup>†</sup> Equal contribution. <sup>‡</sup> Corresponding authors.</p>
