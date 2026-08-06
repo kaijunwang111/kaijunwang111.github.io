@@ -62,7 +62,8 @@ redirect_from:
         <strong><a href="https://www.ubtrobot.com/en/" target="_blank" rel="noopener noreferrer">UBTECH ROBOTICS CORP LTD</a></strong>
         <span class="experience-date">Jul. 2025 – Present</span>
       </div>
-      <div>Senior Motion Control Algorithm Engineer</div>
+      <div>Senior Robotics Algorithm Engineer</div>
+      <div class="experience-focus">VLA · Reinforcement Learning · Real-World Deployment Infrastructure</div>
     </div>
   </div>
 </div>
