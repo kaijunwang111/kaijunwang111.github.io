@@ -74,20 +74,20 @@ redirect_from:
 
 <ol class="publication-list">
   <li>
-    <span class="publication-title">SSI-Policy: Learning Structured Scene Interfaces for Vision-Language Robotic Manipulation</span>
-    <p class="publication-links"><a href="https://arxiv.org/abs/2606.26800" target="_blank" rel="noopener noreferrer">arXiv</a><span class="publication-separator">|</span><a href="{{ '/assets/videos/ssi-policy-iros2026.mp4' | relative_url }}" target="_blank" rel="noopener noreferrer">Video</a></p>
+    <a class="publication-title" href="https://arxiv.org/abs/2606.26800" target="_blank" rel="noopener noreferrer">SSI-Policy: Learning Structured Scene Interfaces for Vision-Language Robotic Manipulation</a>
+    <p class="publication-links"><a href="{{ '/assets/videos/ssi-policy-iros2026.mp4' | relative_url }}" target="_blank" rel="noopener noreferrer">Video</a></p>
     <p class="publication-authors"><strong>K. Wang</strong>, Z. Ouyang, X. Wu, J. Hong, W. Pan, H. Lu, J. Pan, W. Zhang, and L. Zheng</p>
     <p class="publication-venue">Accepted to the <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2026.</p>
   </li>
   <li>
-    <span class="publication-title">SCIL: Stage-Conditioned Imitation Learning for Multi-Stage Manipulation</span>
-    <p class="publication-links"><a href="https://clearlab-sustech.github.io/scil/" target="_blank" rel="noopener noreferrer">Project Page</a><span class="publication-separator">|</span><a href="https://doi.org/10.1109/LCSYS.2025.3577082" target="_blank" rel="noopener noreferrer">DOI</a></p>
+    <a class="publication-title" href="https://doi.org/10.1109/LCSYS.2025.3577082" target="_blank" rel="noopener noreferrer">SCIL: Stage-Conditioned Imitation Learning for Multi-Stage Manipulation</a>
+    <p class="publication-links"><a href="https://clearlab-sustech.github.io/scil/" target="_blank" rel="noopener noreferrer">Project Page</a></p>
     <p class="publication-authors">Z. Ouyang, <strong>K. Wang</strong>, J. Liu, H. Lu, and W. Zhang</p>
     <p class="publication-venue"><em>IEEE Control Systems Letters (L-CSS)</em>, vol. 9, pp. 913–918, 2025.</p>
   </li>
   <li>
-    <span class="publication-title">HTD: A Hybrid Triangle Descriptor Combining Geometry and Intensity Information for 3D Loop Detection</span>
-    <p class="publication-links"><a href="https://doi.org/10.1109/ROBIO64047.2024.10907353" target="_blank" rel="noopener noreferrer">DOI</a></p>
+    <a class="publication-title" href="https://doi.org/10.1109/ROBIO64047.2024.10907353" target="_blank" rel="noopener noreferrer">HTD: A Hybrid Triangle Descriptor Combining Geometry and Intensity Information for 3D Loop Detection</a>
+    <p class="publication-links"><a href="{{ '/assets/videos/htd-robio2024.mp4' | relative_url }}" target="_blank" rel="noopener noreferrer">Video</a></p>
     <p class="publication-authors"><strong>K. Wang</strong> and W. Zhang</p>
     <p class="publication-venue"><em>IEEE International Conference on Robotics and Biomimetics (ROBIO)</em>, 2024, pp. 1507–1513.</p>
   </li>

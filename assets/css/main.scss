@@ -223,12 +223,6 @@ html {
     font-weight: 700;
 }
 
-.publication-separator {
-    margin: 0 0.45em;
-    color: $gray;
-    font-weight: 400;
-}
-
 @include breakpoint(max-width $small) {
     .education-item,
     .experience-item {
