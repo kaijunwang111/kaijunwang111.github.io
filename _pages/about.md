@@ -12,7 +12,11 @@ redirect_from:
 
 # About Me
 
-<p class="placeholder-copy">A brief biography and research interests will be added here.</p>
+I received my M.S. degree from the Southern University of Science and Technology (SUSTech) in 2025, where I conducted robotics research at [CLEAR Lab](https://www.wzhanglab.site/) under the supervision of [Prof. Wei Zhang](https://faculty.sustech.edu.cn/?tagid=zhangw3&go=2). My master's research focused on imitation learning and robot-agnostic representations for cross-embodiment transfer. Prior to that, I received my B.Eng. degree from Zhejiang University in 2022, with a focus on robotics and control.
+
+My current research focuses on Vision-Language-Action (VLA) models and reinforcement learning (RL) post-training for bimanual manipulation, with an emphasis on exploring their practical deployment in industrial sorting scenarios. My work spans the full pipeline from robotic data collection and model training to deployment on physical robots. In particular, I have extensive hands-on experience in real-robot deployment infrastructure, system integration, and reliable execution of learning-based policies on robotic platforms.
+
+Feel free to reach out to me at [kaijunwang111@gmail.com](mailto:kaijunwang111@gmail.com).
 
 <span class="anchor" id="education"></span>
 
